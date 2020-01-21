@@ -1,0 +1,46 @@
+{
+  "name": "twogroupttest",
+  "description": "two group Student's t-test",
+  "tags": ["simple statistics"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/twogroupttest_operator"],
+  "properties": [
+    {
+    "kind": "BooleanProperty",
+    "name": "reverse",
+    "defaultValue": false,
+    "description": "A logical variable indicating whether to reverse the order of calulations of the x-axis."
+  },
+    {
+    "kind": "EnumeratedProperty",
+    "name": "alternative",
+    "defaultValue": "two.sided",
+    "values": [
+      "two.sided",
+      "less",
+      "greater"
+    ],
+    "description": "A character string specifying the alternative hypothesis."
+  },
+  {
+    "kind": "DoubleProperty",
+    "name": "mu",
+    "defaultValue": 0.0,
+    "description": "A number indicating the true value of the mean (or difference in means if you are performing a two sample test)"
+  },
+  {
+    "kind": "BooleanProperty",
+    "name": "var.equal",
+    "defaultValue": false,
+    "description": "A logical variable indicating whether to treat the two variances as being equal. If TRUE then the pooled variance is used to estimate the variance otherwise the Welch (or Satterthwaite) approximation to the degrees of freedom is used."
+  },
+  {
+    "kind": "DoubleProperty",
+    "name": "conf.level",
+    "defaultValue": 0.95,
+    "description": "Confidence level of the interval."
+  }
+  ]
+}
+
+
