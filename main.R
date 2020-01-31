@@ -1,7 +1,7 @@
 library(tercen)
 library(dplyr)
 
-do.twocompare = function(df, paired, reverse, ...) {
+do.twocompare = function(df, reverse, ...) {
   p_value = NaN
   result = try(t.test(.y ~ .x, data = arrange(df, .x), ...), silent = TRUE)
   if (!inherits(result, 'try-error'))
