@@ -9,7 +9,13 @@
     "kind": "BooleanProperty",
     "name": "reverse",
     "defaultValue": false,
-    "description": "A logical variable indicating whether to reverse the order of calulations of the x-axis."
+    "description": "A logical variable indicating whether to reverse the order of calculations based on the x-axis."
+  },
+  {
+    "kind": "BooleanProperty",
+    "name": "paired",
+    "defaultValue": false,
+    "description": "A logical variable indicating whether to perform pairing."
   },
     {
     "kind": "EnumeratedProperty",
