@@ -35,7 +35,7 @@ do.twocompare = function(df, paired, reverse, ...) {
 
 ctx = tercenCtx()
 
-if ((ctx$op.value('paired')) && (length(ctx$colors) < 1))
+if (as.logical(ctx$op.value('paired')) && (length(ctx$colors) < 1))
   stop("A color factor is required for pairing.")
 
 if (!ctx$hasXAxis)
