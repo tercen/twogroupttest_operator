@@ -1,9 +1,11 @@
-# twogroupttest operator
+# Two group t-test operator
 
-#### Description
+##### Description
+
 `twogroupttest` operator performs a Student's t-test on the data.
 
 ##### Usage
+
 Input projection|.
 ---|---
 `y-axis`  | measurement value
@@ -24,16 +26,15 @@ Output relations|.
 `p_value`| numeric, p-value calculated per cell
 
 ##### Details
-The operator is the `t.test` function in base R .
 
+The operator is the `t.test` function in base R.
 
-#### References
-see the `base::t.test` function of the R package for the documentation, 
+##### References
 
+See the `base::t.test` function of the R package for the documentation, 
 
 ##### See Also
-[anova](https://github.com/tercen/anova_operator),[rfImp](https://github.com/tercen/rfImp_operator)
 
-#### Examples
+[anova](https://github.com/tercen/anova_operator), [rfImp](https://github.com/tercen/rfImp_operator)
 
 
