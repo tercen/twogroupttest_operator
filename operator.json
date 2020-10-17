@@ -1,7 +1,7 @@
 {
   "name": "twogroupttest",
   "description": "two group Student's t-test",
-  "tags": ["simple statistics"],
+  "tags": ["statistical testing", "test"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/twogroupttest_operator"],
   "properties": [
